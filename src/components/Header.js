@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-Header = (props) => {
+function Header(props) {
+  const [count, setCount] = useState(0)
+
   return(
     <div id="header">
-      Clicky Game
+      <p>Score: {count}</p>
+      <p>Top Score: {count}</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me!
+      </button>
+      <button onClick={() => setCount(0)}>
+        Reset
+      </button>
+
     </div>
   )
 }
