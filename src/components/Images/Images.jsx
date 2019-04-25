@@ -4,7 +4,9 @@ import Image from "./image.js";
 
 function Images(props) {
   var renderImages = () => {
-    return data.map((currentImage, index) => <Image {...currentImage} incrementScore={props.incrementScore} key={index}/>)
+    return data
+    .map((currentImage, index) => <Image {...currentImage} incrementScore={props.incrementScore} key={index}/>)
+    .sort(() => .5 - Math.random())
   }
 
   return(
