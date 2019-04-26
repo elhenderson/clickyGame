@@ -1,51 +1,51 @@
 const images = [
   {
     "id": 1,
-    "name": "example1"
+    "name": "images/thanos.jpg"
   },
   {
     "id": 2,
-    "name": "example2"
+    "name": "images/ironMan.jpeg"
   },
   {
     "id": 3,
-    "name": "example1"
+    "name": "/images/doctorStrange.jpg"
   },
   {
     "id": 4,
-    "name": "example1"
+    "name": "/images/thor.jpg"
   },
   {
     "id": 5,
-    "name": "example1"
+    "name": "images/captainAmerica.jpg"
   },
   {
     "id": 6,
-    "name": "example1"
+    "name": "images/blackPanther.jpg"
   },
   {
     "id": 7,
-    "name": "example1"
+    "name": "images/hulk.jpg"
   },
   {
     "id": 8,
-    "name": "example1"
+    "name": "images/spiderMan.jpg"
   },
   {
     "id": 9,
-    "name": "example1"
+    "name": "images/blackWidow.jpg"
   },
   {
     "id": 10,
-    "name": "example1"
+    "name": "images/drax.jpg"
   },
   {
     "id": 11,
-    "name": "example1"
+    "name": "images/captainMarvel.jpg"
   },
   {
     "id": 12,
-    "name": "example1"
+    "name": "images/rocket.jpg"
   }
 ]
 

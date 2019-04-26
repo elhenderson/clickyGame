@@ -10,9 +10,10 @@ function Image(props) {
     <button onClick={clickButton}style={{
       width: "170px",
       height: "170px",
-      margin: "8px 25px"
+      margin: "8px 25px",
+      backgroundImage: `url(${props.name})`,
+      backgroundSize: "170px 170px"
     }}>
-      {props.id}
     </button>
   ) 
 }

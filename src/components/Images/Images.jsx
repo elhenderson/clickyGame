@@ -11,12 +11,22 @@ function Images(props) {
 
   return(
     <div style={{
-      display: "flex",
-      flexWrap: "wrap",
-      justifyContent: "center"
-    }}>
-      {renderImages()}
+        width: "100%",
+        backgroundColor: "#1f1f2e",
+        height: "100%"
+      }}>
+      <div id="shake" style={{
+        display: "flex",
+        flexWrap: "wrap",
+        justifyContent: "center",
+        maxWidth: "1000px",
+        margin: "auto",
+        backgroundColor: "#1f1f2e"
+      }}>
+        {renderImages()}
+      </div>
     </div>
+
   )
 }
 

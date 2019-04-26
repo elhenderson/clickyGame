@@ -30,11 +30,15 @@ class App extends React.Component {
     }
     this.setState({score, topScore, guessResult, selectedImages})
   }
+
+  shakeOnIncorrect() {
+    
+  }
   
   render() {
     var {score, topScore, guessResult} = this.state;
     return(
-      <div>
+      <div style={{backgroundColor: "#1f1f2e", height: "100%"}}>
         <Header 
           score={score}
           topScore={topScore}
