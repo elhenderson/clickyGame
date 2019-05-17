@@ -9,11 +9,11 @@ const images = [
   },
   {
     "id": 3,
-    "name": "/images/doctorStrange.jpg"
+    "name": "images/doctorStrange.jpg"
   },
   {
     "id": 4,
-    "name": "/images/thor.jpg"
+    "name": "images/thor.jpg"
   },
   {
     "id": 5,
